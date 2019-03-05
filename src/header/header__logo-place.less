@@ -1,0 +1,22 @@
+.header {
+	&__logo-place {
+		z-index: 1000;
+		display: flex;
+		flex-wrap: nowrap;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+
+		@media screen and (min-width: 1200px) {
+
+			margin-right: auto;
+			margin-left: 310px;
+			transition: 1s ease-out;
+		}
+
+		@media screen and (max-width:1200px) {
+			margin: 0;
+			transition: 1s ease-out;
+		}
+	}
+}

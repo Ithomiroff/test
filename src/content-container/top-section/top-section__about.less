@@ -1,0 +1,21 @@
+.top-section {
+	&__about {
+		z-index: 999;
+		display: flex;
+		flex-wrap: nowrap;
+		flex-direction: column;
+		justify-content: center;
+		align-items: flex-start;
+
+		@media screen and (max-width: 1200px) {
+			margin-left: 15px;
+			transition: 1s ease-out;
+		}
+
+		@media screen and (min-width: 1200px) {
+			margin-left: 350px;
+			transition: 1s ease-out;
+		}
+
+	}
+}

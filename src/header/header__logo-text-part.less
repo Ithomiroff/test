@@ -1,0 +1,26 @@
+.header{
+	&__logo-text-part {
+		width: 230px;
+		height: 20px;
+		border-radius: 25px;
+		padding: 10px;
+		text-align: center;
+		position: relative;
+		background: #fff;
+		margin-bottom: 30px;
+		box-shadow: 5px 2px 59px -15px rgba(0, 0, 0, 0.5);
+	}
+
+	&__logo-text-part:after {
+		content: '';
+		position: absolute;
+		border-style: solid;
+		border-width: 10px 9px 0;
+		border-color: #fff transparent;
+		display: block;
+		width: 0;
+		z-index: 1;
+		bottom: -10px;
+		left: 40px;
+	}
+}

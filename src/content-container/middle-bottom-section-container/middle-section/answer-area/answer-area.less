@@ -1,0 +1,17 @@
+.answer-area {
+	width: 400px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	@media screen and (min-width: 200px) {
+		flex-wrap: nowrap;
+		height: 1200px;
+	}
+
+	@media screen and (min-width: 450px) {
+		flex-wrap: wrap;
+		height: 850px;
+	}
+}

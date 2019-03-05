@@ -1,0 +1,19 @@
+.answer-block {
+	&__hover-info {
+		display: flex;
+		visibility: hidden;
+		justify-content: flex-end;
+		align-items: center;
+		margin-left: 50px;
+		color: #fff;
+		font-size: 12px;
+		& img {
+			margin-left: 5px;
+		}
+	}
+}
+.answer-block:hover {
+	.answer-block__hover-info {
+		visibility: visible;
+	}
+}
